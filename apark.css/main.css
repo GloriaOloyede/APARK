@@ -3,11 +3,19 @@
 * {
     margin: 0px;
     padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 #header {
-width: 100%;
 background-color: pink;
 padding: 10px;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
