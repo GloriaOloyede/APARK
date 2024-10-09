@@ -4,16 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
-.nav-links {
-    display: flex;
-    align-items: normal;
+
+#header {
+width: 100%;
+background-color: pink;
+padding: 10px;
 }
 
-.logo {
-    width: 15px;
-    height: 15px;
-}
-
-.header {
-    display: flex;
-}
