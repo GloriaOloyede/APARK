@@ -8,18 +8,116 @@
 
 a {
     text-decoration: none;
+    font-style: normal;
+    font-size: medium;
+    
 }
 
 #header {
 background-color: pink;
-padding: 10px;
+padding: 15px;
+margin-top: 30px;
 }
 
 .nav-links {
     display: flex;
-    justify-content: space-between;
-<<<<<<< HEAD
+    justify-content: space-around;
 }
-=======
+
+.gametype  {
+    float: right;
+    width: 300px;
+    display: grid;
 }
->>>>>>> 5bba9bcd7211ecfbb82d615418221dc8729073e2
+
+.gametype ul {
+    list-style-type: armenian;
+    padding: 20px;
+}
+
+.gametype li {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    margin: 5px 0;
+}
+
+
+.box-container {
+    display: grid;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+/* Base navigation link styles */
+.nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button-like styles for Ticket and Login */
+.btn-nav {
+    background-color: white;
+    color: palevioletred;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-nav:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the Buy Ticket button (optional) */
+.button {
+    background-color: #28A745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+.box-container {
+width: 570px;
+height: 350px;
+margin: 50px;
+padding: 20px;
+background-color: #28A745;
+border-radius: 50px;
+color: brown;
+display: grid;
+gap: 5px;
+justify-content: space-between;
+}
+
+.type1 {
+    float: left;
+    justify-content: space-around;
+}
+
+.type2 {
+    float: right;
+justify-content: space-evenly;
+}
+
+
+
